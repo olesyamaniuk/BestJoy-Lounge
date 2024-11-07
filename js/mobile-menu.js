@@ -22,31 +22,30 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-
 document.addEventListener("DOMContentLoaded", function () {
     const popup = document.getElementById("cookie-popup");
     const acceptButton = document.getElementById("accept-cookies");
     const declineButton = document.getElementById("decline-cookies");
     const closeButton = document.getElementById("close-popup");
 
-    // Перевіряємо, чи користувач уже прийняв або відхилив файли cookie
+    
     if (!localStorage.getItem("cookiesAccepted")) {
         popup.style.display = "block";
     }
 
-    // Подія на кнопку "Прийняти"
+    
     acceptButton.onclick = function () {
         localStorage.setItem("cookiesAccepted", "true");
         popup.style.display = "none";
     };
 
-    // Подія на кнопку "Відхилити"
+    
     declineButton.onclick = function () {
         localStorage.setItem("cookiesAccepted", "false");
         popup.style.display = "none";
     };
 
-    // Подія для закриття попапу
+ 
     closeButton.onclick = function () {
         popup.style.display = "none";
     };

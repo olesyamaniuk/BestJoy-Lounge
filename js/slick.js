@@ -27,8 +27,8 @@ $(function () {
     dots: false,
     centerMode: false,
     cssEase: 'linear',
-    prevArrow: '.gallery__list-left',
-    nextArrow: '.gallery__list-right',
+    prevArrow: '.gallery__list--left',
+    nextArrow: '.gallery__list--right',
     
   });
 });

@@ -464,7 +464,27 @@ a {
 .gallery__desk {
   display: none;
 }
+.gallery-button-container-desk {
+  display: none;
+}
 @media screen and (min-width: 1200px) {
+  .gallery-button-container-desk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    margin-top: 26px;
+  }
+  .gallery-button-container {
+    display: none;
+  }
+  .gallery__list-desk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 1199px;
+  }
   .gallery {
     margin: 58px 64px;
   }
