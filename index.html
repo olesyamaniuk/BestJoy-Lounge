@@ -99,6 +99,12 @@
     <main class="main">
       <section class="home" id="home">
         <div class="home__wrapper container">
+          <p class="home-title">BestJoy Lounge</p>
+          <p class="home-text">En güzel akşamların başladığı yer!</p>
+          <p class="home-text-two">
+            "Lezzetli içecekler, sevdiğiniz sporlar ve eğlenceli masa oyunları
+            bir arada!"
+          </p>
           <div class="home__container-top">
             <a class="home__google-button_link" href="" target="_blank">
               <img
@@ -119,11 +125,25 @@
       </section>
 
       <section class="about" id="about">
-        <h2 class="visually-hidden">About the Game</h2>
-
-        <div class="about__container">
-          <img class="about-image" src="img/about/Hakkımızda (1).png" alt="" />
-          <img class="about-image-desk" src="img/about/Hakkımızda.png" alt="" />
+        <div class="about-container-top">
+          <img class="about-img-desk" src="/img/about/Frame 3 (1).png" alt="" />
+          <div>
+            <h2 class="about-title">Hakkımızda</h2>
+            <p class="about-text">
+              "BestJoy Lounge, misafirlerine samimi ve sıcak bir atmosfer sunar.
+              Herkesi rahatlayıp arkadaşlarıyla hoş vakit geçirmeye davet
+              ediyoruz. Zengin içecek seçeneklerimiz ve özenle hazırlanmış
+              atıştırmalıklarımızla her ziyaretinizde unutulmaz anılar
+              biriktirmeniz için buradayız."
+            </p>
+          </div>
+        </div>
+        <img class="about-img" src="/img/about/Frame 3.png" alt="" />
+        <div class="features-container">
+          <div class="feature">Sıcak ve samimi ortam</div>
+          <div class="feature">Zengin içecek ve atıştırmalık menüsü</div>
+          <div class="feature">Eğlenceli masa oyunları</div>
+          <div class="feature">Geniş ekranlarda canlı spor yayınları</div>
         </div>
       </section>
 
@@ -134,64 +154,69 @@
           <div class="gallery__phone">
             <ul class="gallery__list">
               <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./img/gallery/Frame 19.png"
-                  alt="User Avatar"
-                />
+                <div class="gallery__item-desk">
+                  <img
+                    class="gallery-avatar"
+                    src="./img/gallery/Frame 15.png"
+                    alt="User Avatar"
+                  />
+                  <div class="gallery-item-text">
+                    <p class="gallery-item-title">Masa Oyunları:</p>
+                    <p class="gallery-text">
+                      "Satranç, kart oyunları ve daha fazlasıyla
+                      arkadaşlarınızla keyifli vakit geçirin."
+                    </p>
+                  </div>
+                </div>
               </li>
               <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./img/gallery/Frame 14.png"
-                  alt="User Avatar"
-                />
+                <div class="gallery__item-desk">
+                  <img
+                    class="gallery-avatar"
+                    src="./img/gallery/Frame 13.png"
+                    alt="User Avatar"
+                  />
+                  <div class="gallery-item-text">
+                    <p class="gallery-item-title">İçecekler:</p>
+                    <p class="gallery-text">
+                      "BestJoy Lounge, klasik kokteyllerden özel tariflere kadar
+                      geniş bir içecek yelpazesi sunar."
+                    </p>
+                  </div>
+                </div>
               </li>
               <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./img/gallery/Frame 17.png"
-                  alt="User Avatar"
-                />
+                <div class="gallery__item-desk">
+                  <img
+                    class="gallery-avatar"
+                    src="./img/gallery/Frame 14.png"
+                    alt="User Avatar"
+                  />
+                  <div class="gallery-item-text">
+                    <p class="gallery-item-title">Yiyecekler:</p>
+                    <p class="gallery-text">
+                      "Taze ve özenle hazırlanmış atıştırmalıklarımızla damak
+                      tadınıza hitap ediyoruz."
+                    </p>
+                  </div>
+                </div>
               </li>
+
               <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./img/gallery/Frame 20.png"
-                  alt="User Avatar"
-                />
-              </li>
-            </ul>
-          </div>
-          <div class="gallery__desk">
-            <ul class="gallery__list-desk">
-              <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./img/gallery/Frame 39755.png"
-                  alt="User Avatar"
-                />
-              </li>
-              <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./img/gallery/Frame 39756.png"
-                  alt="User Avatar"
-                />
-              </li>
-              <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./img/gallery/Frame 17 (1).png"
-                  alt="User Avatar"
-                />
-              </li>
-              <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./img/gallery/Frame 39757.png"
-                  alt="User Avatar"
-                />
+                <div class="gallery__item-desk">
+                  <img
+                    class="gallery-avatar"
+                    src="./img/gallery/Frame 16.png"
+                    alt="User Avatar"
+                  />
+                  <div class="gallery-item-text">
+                    <p class="gallery-item-title">Canlı Spor Yayınları:</p>
+                    <p class="gallery-text">
+                      "Geniş ekranlarımızda futbol ve diğer spor etkinliklerini
+                      izleyin."
+                    </p>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
@@ -212,23 +237,8 @@
             />
           </button>
         </div>
-        <div class="gallery-button-container-desk">
-          <button class="gallery-button gallery__list--left">
-            <img
-              class="gallery-button-icon"
-              src="img/gallery/Frame 41.png"
-              alt=""
-            />
-          </button>
-          <button class="gallery-button gallery__list--right">
-            <img
-              class="gallery-button-icon"
-              src="img/gallery/Frame 40.png"
-              alt=""
-            />
-          </button>
-        </div>
       </section>
+
       <section class="contact" id="contact"></section>
       <h2 class="contact-title">Temas Etmek</h2>
       <div class="form">
@@ -240,11 +250,23 @@
             <img class="" src="./img/contact/Frame 1 (1).png   " alt="" />
           </a>
         </div>
-        <div class="contact-img-phone">
-          <img src="/img/contact/Frame 29.png" alt="" />
-        </div>
-        <div class="contact-img-desk">
-          <img src="/img/contact/Frame 29 (1).png" alt="" />
+        <div class="contact-img-container">
+          <img
+            class="contact-img-phone"
+            src="/img/contact/Frame 27.png"
+            alt=""
+          />
+          <p class="contact-img-container-text">
+            <span class="contact-img-container-bold">Adres:</span>
+            Fatih, Ayazini kasabası karşılama merkezi, 03030
+            Ayazini/İhsaniye/Afyonkarahisar, Türkiye
+          </p>
+          <p class="contact-img-container-text">
+            <span class="contact-img-container-bold">E-posta: </span>
+            <a href="mailto:support@bestjoyhub.com" class="email-link"
+              >Support@bestjoyhub.com</a
+            >
+          </p>
         </div>
       </div>
     </main>
